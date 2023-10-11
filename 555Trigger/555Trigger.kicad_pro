@@ -479,6 +479,18 @@
     [
       "ddfde45b-0759-482c-9a42-ae9b2feffe30",
       ""
+    ],
+    [
+      "6ed03128-37dc-45a2-a2f4-664d9e87fb5a",
+      "Brain_Camera_Unit"
+    ],
+    [
+      "087225b2-4315-4034-b601-55476b8cc4ce",
+      "Behavior_Camera_Unit"
+    ],
+    [
+      "7e2ec321-e867-4e33-8ace-99077004f6ca",
+      "Strobing_Trigger"
     ]
   ],
   "text_variables": {}
