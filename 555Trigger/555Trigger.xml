@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/555Trigger/555Trigger.kicad_sch</source>
-    <date>Tue 10 Oct 2023 03:57:58 PM</date>
-    <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
+    <source>C:\Users\Owner\Documents\TM-Lab-Mesoscope-Resources\555Trigger\555Trigger.kicad_sch</source>
+    <date>10/13/2023 4:42:56 PM</date>
+    <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -22,162 +22,659 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="2" name="/Brain_Camera_Unit/" tstamps="/6ed03128-37dc-45a2-a2f4-664d9e87fb5a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Trigguer_Unit.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Behavior_Camera_Unit/" tstamps="/087225b2-4315-4034-b601-55476b8cc4ce/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Trigguer_Unit.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Strobing_Trigger/" tstamps="/7e2ec321-e867-4e33-8ace-99077004f6ca/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Trigguer_Unit.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
-    <comp ref="C1">
-      <value>2.2 μF</value>
-      <footprint>Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+    <comp ref="Behavior1">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="555Trigger.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8d318ff8-0f99-48ce-99bf-20e533ed9924</tstamps>
+      <tstamps>9521d04f-7366-41e5-8b54-892bb245b919</tstamps>
     </comp>
-    <comp ref="C3">
-      <value>C</value>
-      <footprint>Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+    <comp ref="Behavior2">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="555Trigger.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a00466be-b330-4760-827b-e3db3cd317cc</tstamps>
+      <tstamps>feba506f-85fd-43ed-9811-6222cd8112dc</tstamps>
     </comp>
-    <comp ref="J1">
+    <comp ref="Behavior3">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3322b523-c3e0-4b2e-815c-0a3e36ef3387</tstamps>
+    </comp>
+    <comp ref="Behavior4">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b83e5636-38eb-4f03-b751-e4aa1d3d06cb</tstamps>
+    </comp>
+    <comp ref="Behavior5">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ed1e783-7aaf-4cb7-aa6b-cd079ea6061e</tstamps>
+    </comp>
+    <comp ref="Behavior6">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bdafbd7-8a24-4517-a9ba-3a9643e9ffef</tstamps>
+    </comp>
+    <comp ref="Brain1">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8f0daa8-0889-49a5-9a7e-b31807fcada4</tstamps>
+    </comp>
+    <comp ref="Brain2">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1fa2ca6-6fcb-4449-8a9d-695a3b408452</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85a6bea3-b352-4149-90b2-4091492e5ba2</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b663be93-2970-43d3-9fb4-85fa237d9047</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f1b97af-1d11-4349-8676-2966d3c1fd28</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5809e332-2cff-4068-838a-80cd26f54384</tstamps>
+    </comp>
+    <comp ref="Output_Voltage1">
+      <value>10k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acf9c1b2-6940-41b0-95b7-f4d22f667668</tstamps>
+    </comp>
+    <comp ref="Power_In1">
       <value>Conn_01x03_Socket</value>
-      <footprint>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</footprint>
+      <footprint>Connector_JST:JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="555Trigger.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0c2c960a-b568-4b2f-b7a0-27deb6a6c6be</tstamps>
-    </comp>
-    <comp ref="J2">
-      <value>Timing Signal Out</value>
-      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>009092cb-b212-48c3-91ae-b262946623f4</tstamps>
-    </comp>
-    <comp ref="J3">
-      <value>Timing Signal In</value>
-      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>11c2f4b3-08a3-4ae8-aeb5-62b9c646108a</tstamps>
-    </comp>
-    <comp ref="R1">
-      <value>1k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0ee5b622-23bd-4c5e-a9c4-4365f9b5d50b</tstamps>
+      <tstamps>c8d77f9b-b41c-4221-a955-56b1d15c4cda</tstamps>
     </comp>
     <comp ref="R2">
-      <value>R</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="555Trigger.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e5afaeff-e4a0-43b4-838e-ccd488ae7297</tstamps>
+      <tstamps>75b64271-00e1-464f-9bc2-7f60d4163d1a</tstamps>
     </comp>
     <comp ref="R3">
-      <value>1K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="555Trigger.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>227121dc-933c-465c-a972-f9e15e70a8fe</tstamps>
+      <tstamps>b9330da8-9a6d-4e35-9a61-787b38ee1c24</tstamps>
     </comp>
     <comp ref="R4">
-      <value>1K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="555Trigger.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ede26463-a0ba-4bdc-a741-1c8e38ce206e</tstamps>
+      <tstamps>2eeb8605-eebd-4136-bd6d-d7a9df8b8e2e</tstamps>
     </comp>
-    <comp ref="U1">
-      <value>L272</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>www.st.com/resource/en/datasheet/l272.pdf</datasheet>
-      <libsource lib="Amplifier_Operational" part="L272" description="Dual Power Operation Amplifier, DIP-16"/>
+    <comp ref="Strobing1">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="555Trigger.kicad_sch"/>
-      <property name="ki_description" value="Dual Power Operation Amplifier, DIP-16"/>
-      <property name="ki_keywords" value="dual power opamp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e7234b9c-fae3-454e-998d-7a60a54a44e3 3bb27efc-fec2-4ec1-89dd-2742aded1a96 30f8cd5b-2218-4f3c-a4ac-3b49ade74496</tstamps>
+      <tstamps>4844cf6c-16f2-4888-8f5b-c8c1f191f290</tstamps>
     </comp>
-    <comp ref="U2">
-      <value>TLC555xP</value>
-      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+    <comp ref="Strobing2">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c14524f-17c4-4e07-aa8a-8dfb5a244e4e</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>74LVC2G74</value>
+      <footprint>Package_SO:SSOP-8_2.95x2.8mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74LVC2G74" description="74AUC1G74, Single D Flip-Flop, Low-Voltage CMOS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="74AUC1G74, Single D Flip-Flop, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Single D Flip-Flop D CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aef1792e-f903-41b6-a194-067ac80f082d</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>74AHC2G00</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT2G00.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC2G00" description="Dual NAND Gate, High-speed Si-gate CMOS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Dual NAND Gate, High-speed Si-gate CMOS"/>
+      <property name="ki_keywords" value="Dual Gate NAND LVC CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb398fd7-aefd-4cda-a823-5283e1c3f2e7 f65d7e34-79f9-4018-8fb3-32990c6b0445 7997df46-babe-4ebf-a6eb-0d1eb31d72bd</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>OPA2333xxD</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_SMDSocket_SmallPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa333.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="OPA2333xxD" description="Dual 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Dual 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a5f324c-1dfc-4321-a1e4-55c7ed84f0a7 c63a08d2-c4c6-477c-9a07-74dbefccdd53 47fdbdc6-8b52-43d6-b90e-2877f62d05d2</tstamps>
+    </comp>
+    <comp ref="WidthControlSignal1">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_JST:JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a12f9d2-1577-434c-946d-e578f7fdc457</tstamps>
+    </comp>
+    <comp ref="Brain_555">
+      <value>TLC555xD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tlc555.pdf</datasheet>
-      <libsource lib="Timer" part="TLC555xP" description="Single LinCMOS Timer, 555 compatible, PDIP-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="555Trigger.kicad_sch"/>
-      <property name="ki_description" value="Single LinCMOS Timer, 555 compatible, PDIP-8"/>
+      <libsource lib="Timer" part="TLC555xD" description="Single LinCMOS Timer, 555 compatible, SOIC-8"/>
+      <property name="Sheetname" value="Brain_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Single LinCMOS Timer, 555 compatible, SOIC-8"/>
       <property name="ki_keywords" value="single timer 555"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>32090185-3ce1-45d0-9947-ff560d1b3387</tstamps>
+      <sheetpath names="/Brain_Camera_Unit/" tstamps="/6ed03128-37dc-45a2-a2f4-664d9e87fb5a/"/>
+      <tstamps>6c18bec1-b283-4f32-833e-7568cc45fd9f</tstamps>
+    </comp>
+    <comp ref="Brain_Filter_C1">
+      <value>10 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Brain_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Brain_Camera_Unit/" tstamps="/6ed03128-37dc-45a2-a2f4-664d9e87fb5a/"/>
+      <tstamps>5785db41-9b00-4ab7-9142-3c0e9a39a9d8</tstamps>
+    </comp>
+    <comp ref="Brain_Filter_R1">
+      <value>32k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Brain_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Brain_Camera_Unit/" tstamps="/6ed03128-37dc-45a2-a2f4-664d9e87fb5a/"/>
+      <tstamps>a32c01af-b565-45be-950e-730c7b4b59ff</tstamps>
+    </comp>
+    <comp ref="Brain_Timing1">
+      <value>0-10k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Sheetname" value="Brain_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/Brain_Camera_Unit/" tstamps="/6ed03128-37dc-45a2-a2f4-664d9e87fb5a/"/>
+      <tstamps>18ab5aa7-8a4a-4ae0-a572-644badab6ff9</tstamps>
+    </comp>
+    <comp ref="Brain_Timing_C1">
+      <value>1.7u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Field4" value=""/>
+      <property name="Sheetname" value="Brain_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Brain_Camera_Unit/" tstamps="/6ed03128-37dc-45a2-a2f4-664d9e87fb5a/"/>
+      <tstamps>e709640b-d2e8-43dd-ae2d-da92926c94fe</tstamps>
+    </comp>
+    <comp ref="In_Buffer_Brain1">
+      <value>OPA333xxD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa333.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="OPA333xxD" description="Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+      <property name="Sheetname" value="Brain_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+      <property name="ki_keywords" value="single opamp"/>
+      <sheetpath names="/Brain_Camera_Unit/" tstamps="/6ed03128-37dc-45a2-a2f4-664d9e87fb5a/"/>
+      <tstamps>8a8b796e-523f-4613-b466-d9b88aac2228</tstamps>
+    </comp>
+    <comp ref="SW_Brain1">
+      <value>SW_DIP_x01</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="Brain_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <sheetpath names="/Brain_Camera_Unit/" tstamps="/6ed03128-37dc-45a2-a2f4-664d9e87fb5a/"/>
+      <tstamps>7579de78-74ff-4295-8973-e2bf1eddff88</tstamps>
+    </comp>
+    <comp ref="Behav_555">
+      <value>TLC555xD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlc555.pdf</datasheet>
+      <libsource lib="Timer" part="TLC555xD" description="Single LinCMOS Timer, 555 compatible, SOIC-8"/>
+      <property name="Sheetname" value="Behavior_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Single LinCMOS Timer, 555 compatible, SOIC-8"/>
+      <property name="ki_keywords" value="single timer 555"/>
+      <sheetpath names="/Behavior_Camera_Unit/" tstamps="/087225b2-4315-4034-b601-55476b8cc4ce/"/>
+      <tstamps>6c18bec1-b283-4f32-833e-7568cc45fd9f</tstamps>
+    </comp>
+    <comp ref="Behav_Filter_C1">
+      <value>10 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Behavior_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Behavior_Camera_Unit/" tstamps="/087225b2-4315-4034-b601-55476b8cc4ce/"/>
+      <tstamps>5785db41-9b00-4ab7-9142-3c0e9a39a9d8</tstamps>
+    </comp>
+    <comp ref="Behav_Filter_R1">
+      <value>32k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Behavior_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Behavior_Camera_Unit/" tstamps="/087225b2-4315-4034-b601-55476b8cc4ce/"/>
+      <tstamps>a32c01af-b565-45be-950e-730c7b4b59ff</tstamps>
+    </comp>
+    <comp ref="Behav_Timing1">
+      <value>0-10k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Sheetname" value="Behavior_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/Behavior_Camera_Unit/" tstamps="/087225b2-4315-4034-b601-55476b8cc4ce/"/>
+      <tstamps>18ab5aa7-8a4a-4ae0-a572-644badab6ff9</tstamps>
+    </comp>
+    <comp ref="Behav_Timing_C1">
+      <value>1.7u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Field4" value=""/>
+      <property name="Sheetname" value="Behavior_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Behavior_Camera_Unit/" tstamps="/087225b2-4315-4034-b601-55476b8cc4ce/"/>
+      <tstamps>e709640b-d2e8-43dd-ae2d-da92926c94fe</tstamps>
+    </comp>
+    <comp ref="In_Buffer_Behav1">
+      <value>OPA333xxD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa333.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="OPA333xxD" description="Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+      <property name="Sheetname" value="Behavior_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+      <property name="ki_keywords" value="single opamp"/>
+      <sheetpath names="/Behavior_Camera_Unit/" tstamps="/087225b2-4315-4034-b601-55476b8cc4ce/"/>
+      <tstamps>8a8b796e-523f-4613-b466-d9b88aac2228</tstamps>
+    </comp>
+    <comp ref="SW_Behav1">
+      <value>SW_DIP_x01</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="Behavior_Camera_Unit"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <sheetpath names="/Behavior_Camera_Unit/" tstamps="/087225b2-4315-4034-b601-55476b8cc4ce/"/>
+      <tstamps>7579de78-74ff-4295-8973-e2bf1eddff88</tstamps>
+    </comp>
+    <comp ref="In_Buffer_Strobe1">
+      <value>OPA333xxD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa333.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="OPA333xxD" description="Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+      <property name="Sheetname" value="Strobing_Trigger"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8"/>
+      <property name="ki_keywords" value="single opamp"/>
+      <sheetpath names="/Strobing_Trigger/" tstamps="/7e2ec321-e867-4e33-8ace-99077004f6ca/"/>
+      <tstamps>8a8b796e-523f-4613-b466-d9b88aac2228</tstamps>
+    </comp>
+    <comp ref="Strobe_555">
+      <value>TLC555xD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlc555.pdf</datasheet>
+      <libsource lib="Timer" part="TLC555xD" description="Single LinCMOS Timer, 555 compatible, SOIC-8"/>
+      <property name="Sheetname" value="Strobing_Trigger"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Single LinCMOS Timer, 555 compatible, SOIC-8"/>
+      <property name="ki_keywords" value="single timer 555"/>
+      <sheetpath names="/Strobing_Trigger/" tstamps="/7e2ec321-e867-4e33-8ace-99077004f6ca/"/>
+      <tstamps>6c18bec1-b283-4f32-833e-7568cc45fd9f</tstamps>
+    </comp>
+    <comp ref="Strobe_Filter_C1">
+      <value>10 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Strobing_Trigger"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Strobing_Trigger/" tstamps="/7e2ec321-e867-4e33-8ace-99077004f6ca/"/>
+      <tstamps>5785db41-9b00-4ab7-9142-3c0e9a39a9d8</tstamps>
+    </comp>
+    <comp ref="Strobe_Filter_R1">
+      <value>32k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Strobing_Trigger"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Strobing_Trigger/" tstamps="/7e2ec321-e867-4e33-8ace-99077004f6ca/"/>
+      <tstamps>a32c01af-b565-45be-950e-730c7b4b59ff</tstamps>
+    </comp>
+    <comp ref="Strobe_Timing1">
+      <value>0-10k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Sheetname" value="Strobing_Trigger"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/Strobing_Trigger/" tstamps="/7e2ec321-e867-4e33-8ace-99077004f6ca/"/>
+      <tstamps>18ab5aa7-8a4a-4ae0-a572-644badab6ff9</tstamps>
+    </comp>
+    <comp ref="Strobe_Timing_C1">
+      <value>1.7u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Field4" value=""/>
+      <property name="Sheetname" value="Strobing_Trigger"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Strobing_Trigger/" tstamps="/7e2ec321-e867-4e33-8ace-99077004f6ca/"/>
+      <tstamps>e709640b-d2e8-43dd-ae2d-da92926c94fe</tstamps>
+    </comp>
+    <comp ref="SW_Strobe1">
+      <value>SW_DIP_x01</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="Strobing_Trigger"/>
+      <property name="Sheetfile" value="Trigguer_Unit.kicad_sch"/>
+      <property name="ki_description" value="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <sheetpath names="/Strobing_Trigger/" tstamps="/7e2ec321-e867-4e33-8ace-99077004f6ca/"/>
+      <tstamps>7579de78-74ff-4295-8973-e2bf1eddff88</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Amplifier_Operational" part="L272">
-      <description>Dual Power Operation Amplifier, DIP-16</description>
-      <docs>www.st.com/resource/en/datasheet/l272.pdf</docs>
+    <libpart lib="74xGxx" part="74AHC2G00">
+      <description>Dual NAND Gate, High-speed Si-gate CMOS</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT2G00.pdf</docs>
       <footprints>
-        <fp>*DIP*W7.62mm*</fp>
+        <fp>SSOP*</fp>
+        <fp>VSSOP*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">L272</field>
-        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
-        <field name="Datasheet">www.st.com/resource/en/datasheet/l272.pdf</field>
+        <field name="Value">74AHC2G00</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT2G00.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74LVC2G74">
+      <description>74AUC1G74, Single D Flip-Flop, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SSOP*</fp>
+        <fp>VSSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC2G74</field>
+        <field name="Datasheet">http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="~{Q}" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Q" type="output"/>
+        <pin num="6" name="~{CLR}" type="input"/>
+        <pin num="7" name="~{PRE}" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="OPA2333xxD">
+      <description>Dual 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/opa333.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA2333xxD</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/opa333.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="" type="output"/>
-        <pin num="2" name="Vs" type="power_in"/>
-        <pin num="3" name="" type="output"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="-" type="input"/>
-        <pin num="6" name="+" type="input"/>
-        <pin num="7" name="+" type="input"/>
-        <pin num="8" name="-" type="input"/>
-        <pin num="9" name="GND" type="passive"/>
-        <pin num="10" name="GND" type="passive"/>
-        <pin num="11" name="GND" type="passive"/>
-        <pin num="12" name="GND" type="passive"/>
-        <pin num="13" name="GND" type="passive"/>
-        <pin num="14" name="GND" type="passive"/>
-        <pin num="15" name="GND" type="passive"/>
-        <pin num="16" name="GND" type="passive"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="OPA333xxD">
+      <description>Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/opa333.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA333xxD</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/opa333.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x02_Socket">
@@ -245,16 +742,61 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Timer" part="TLC555xP">
-      <description>Single LinCMOS Timer, 555 compatible, PDIP-8</description>
+    <libpart lib="Device" part="R_Potentiometer_Trim">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Trim</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x01">
+      <description>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="TLC555xD">
+      <description>Single LinCMOS Timer, 555 compatible, SOIC-8</description>
       <docs>http://www.ti.com/lit/ds/symlink/tlc555.pdf</docs>
       <footprints>
-        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">TLC555xP</field>
-        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Value">TLC555xD</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlc555.pdf</field>
       </fields>
       <pins>
@@ -270,82 +812,246 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="74xGxx">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/74xGxx.kicad_sym</uri>
+    </library>
     <library logical="Amplifier_Operational">
-      <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
     </library>
     <library logical="Timer">
-      <uri>/usr/share/kicad/symbols//Timer.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Timer.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+5V">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="Vs" pintype="power_in"/>
-      <node ref="U2" pin="4" pinfunction="R" pintype="input"/>
-      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
-    </net>
-    <net code="2" name="GND">
-      <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U1" pin="10" pinfunction="GND" pintype="passive"/>
-      <node ref="U1" pin="11" pinfunction="GND" pintype="passive"/>
-      <node ref="U1" pin="12" pinfunction="GND" pintype="passive"/>
-      <node ref="U1" pin="13" pinfunction="GND" pintype="passive"/>
-      <node ref="U1" pin="14" pinfunction="GND" pintype="passive"/>
-      <node ref="U1" pin="15" pinfunction="GND" pintype="passive"/>
-      <node ref="U1" pin="16" pinfunction="GND" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="6" pinfunction="+" pintype="input"/>
-      <node ref="U1" pin="9" pinfunction="GND" pintype="passive"/>
-      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
-    </net>
-    <net code="3" name="Net-(J1-Pin_3)">
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Behav_555" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="Behav_555" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Behav_Timing1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="Brain_555" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="Brain_555" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Brain_Timing1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="In_Buffer_Behav1" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="In_Buffer_Brain1" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="In_Buffer_Strobe1" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="Output_Voltage1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Power_In1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="Strobe_555" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="Strobe_555" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Strobe_Timing1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="~{CLR}" pintype="input"/>
+      <node ref="U7" pin="7" pinfunction="~{PRE}" pintype="input"/>
+      <node ref="U7" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="4" name="Net-(J2-Pin_1)">
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="2" name="/Behavior_Camera_Unit/CV_In">
+      <node ref="Behav_Filter_R1" pin="1" pintype="passive"/>
+      <node ref="WidthControlSignal1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/Behavior_Camera_Unit/Trigger_Out">
+      <node ref="Behav_555" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="U9" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="4" name="/Brain_Camera_Unit/CV_In">
+      <node ref="Brain_Filter_R1" pin="1" pintype="passive"/>
+      <node ref="WidthControlSignal1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="/Brain_Camera_Unit/Trigger_Out">
+      <node ref="Brain_555" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="U9" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="6" name="/Strobing_Trigger/CV_In">
+      <node ref="Strobe_Filter_R1" pin="1" pintype="passive"/>
+      <node ref="WidthControlSignal1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/Strobing_Trigger/Trigger_Out">
+      <node ref="Strobe_555" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="U7" pin="1" pinfunction="C" pintype="input"/>
+      <node ref="U8" pin="1" pintype="input"/>
+      <node ref="U8" pin="5" pintype="input"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="Behav_555" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="Behav_Filter_C1" pin="2" pintype="passive"/>
+      <node ref="Behav_Timing1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Behav_Timing_C1" pin="2" pintype="passive"/>
+      <node ref="Behavior1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Behavior2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Behavior3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Behavior4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Behavior5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Behavior6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Brain1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Brain2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Brain_555" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="Brain_Filter_C1" pin="2" pintype="passive"/>
+      <node ref="Brain_Timing1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Brain_Timing_C1" pin="2" pintype="passive"/>
+      <node ref="In_Buffer_Behav1" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="In_Buffer_Brain1" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="In_Buffer_Strobe1" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="Power_In1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U1" pin="3" pintype="output"/>
-    </net>
-    <net code="5" name="Net-(J3-Pin_1)">
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U2" pin="2" pinfunction="TR" pintype="input"/>
-    </net>
-    <net code="6" name="Net-(U1A-+)">
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="7" name="Net-(U1A--)">
-      <node ref="U1" pin="1" pintype="output"/>
-      <node ref="U1" pin="8" pinfunction="-" pintype="input"/>
-      <node ref="U2" pin="5" pinfunction="CV" pintype="input"/>
-    </net>
-    <net code="8" name="Net-(U1B--)">
-      <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="-" pintype="input"/>
+      <node ref="Strobe_555" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="Strobe_Filter_C1" pin="2" pintype="passive"/>
+      <node ref="Strobe_Timing1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Strobe_Timing_C1" pin="2" pintype="passive"/>
+      <node ref="Strobing1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Strobing2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="V-" pintype="power_in"/>
     </net>
-    <net code="9" name="Net-(U2-DIS)">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="U2" pin="6" pinfunction="THR" pintype="input"/>
-      <node ref="U2" pin="7" pinfunction="DIS" pintype="input"/>
+    <net code="9" name="Net-(Behav_555-CV)">
+      <node ref="Behav_555" pin="5" pinfunction="CV" pintype="input"/>
+      <node ref="SW_Behav1" pin="2" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(U2-Q)">
+    <net code="10" name="Net-(Behav_555-DIS)">
+      <node ref="Behav_555" pin="6" pinfunction="THR" pintype="input"/>
+      <node ref="Behav_555" pin="7" pinfunction="DIS" pintype="input"/>
+      <node ref="Behav_Timing1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Behav_Timing_C1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(Behavior1-Pin_1)">
+      <node ref="Behavior1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Behavior2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Behavior3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Behavior4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Behavior5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Behavior6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U9" pin="7" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(Brain1-Pin_1)">
+      <node ref="Brain1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Brain2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U9" pin="1" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(Brain_555-CV)">
+      <node ref="Brain_555" pin="5" pinfunction="CV" pintype="input"/>
+      <node ref="SW_Brain1" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Brain_555-DIS)">
+      <node ref="Brain_555" pin="6" pinfunction="THR" pintype="input"/>
+      <node ref="Brain_555" pin="7" pinfunction="DIS" pintype="input"/>
+      <node ref="Brain_Timing1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Brain_Timing_C1" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(In_Buffer_Behav1-+)">
+      <node ref="Behav_Filter_C1" pin="1" pintype="passive"/>
+      <node ref="Behav_Filter_R1" pin="2" pintype="passive"/>
+      <node ref="In_Buffer_Behav1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(In_Buffer_Behav1--)">
+      <node ref="In_Buffer_Behav1" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="In_Buffer_Behav1" pin="6" pintype="output"/>
+      <node ref="SW_Behav1" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(In_Buffer_Brain1-+)">
+      <node ref="Brain_Filter_C1" pin="1" pintype="passive"/>
+      <node ref="Brain_Filter_R1" pin="2" pintype="passive"/>
+      <node ref="In_Buffer_Brain1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(In_Buffer_Brain1--)">
+      <node ref="In_Buffer_Brain1" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="In_Buffer_Brain1" pin="6" pintype="output"/>
+      <node ref="SW_Brain1" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(In_Buffer_Strobe1-+)">
+      <node ref="In_Buffer_Strobe1" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="Strobe_Filter_C1" pin="1" pintype="passive"/>
+      <node ref="Strobe_Filter_R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(In_Buffer_Strobe1--)">
+      <node ref="In_Buffer_Strobe1" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="In_Buffer_Strobe1" pin="6" pintype="output"/>
+      <node ref="SW_Strobe1" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Output_Voltage1-Pad3)">
+      <node ref="Output_Voltage1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U2" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(Strobe_555-CV)">
+      <node ref="SW_Strobe1" pin="2" pintype="passive"/>
+      <node ref="Strobe_555" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(Strobe_555-DIS)">
+      <node ref="Strobe_555" pin="6" pinfunction="THR" pintype="input"/>
+      <node ref="Strobe_555" pin="7" pinfunction="DIS" pintype="input"/>
+      <node ref="Strobe_Timing1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Strobe_Timing_C1" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Strobing1-Pin_1)">
+      <node ref="Strobing1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U8" pin="7" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(Strobing2-Pin_1)">
+      <node ref="Strobing2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U8" pin="3" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(U7-D)">
+      <node ref="U7" pin="2" pinfunction="D" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="~{Q}" pintype="output"/>
+      <node ref="U8" pin="6" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U7-Q)">
+      <node ref="U7" pin="5" pinfunction="Q" pintype="output"/>
+      <node ref="U8" pin="2" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U9A-+)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U9C-V+)">
+      <node ref="Output_Voltage1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="30" name="VAC">
+      <node ref="Behav_555" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="Brain_555" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="Power_In1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Strobe_555" pin="2" pinfunction="TR" pintype="input"/>
+    </net>
+    <net code="31" name="unconnected-(In_Buffer_Behav1-NC-Pad1)">
+      <node ref="In_Buffer_Behav1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(In_Buffer_Behav1-NC-Pad5)">
+      <node ref="In_Buffer_Behav1" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(In_Buffer_Behav1-NC-Pad8)">
+      <node ref="In_Buffer_Behav1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(In_Buffer_Brain1-NC-Pad1)">
+      <node ref="In_Buffer_Brain1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(In_Buffer_Brain1-NC-Pad5)">
+      <node ref="In_Buffer_Brain1" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(In_Buffer_Brain1-NC-Pad8)">
+      <node ref="In_Buffer_Brain1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(In_Buffer_Strobe1-NC-Pad1)">
+      <node ref="In_Buffer_Strobe1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(In_Buffer_Strobe1-NC-Pad5)">
+      <node ref="In_Buffer_Strobe1" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(In_Buffer_Strobe1-NC-Pad8)">
+      <node ref="In_Buffer_Strobe1" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
 </export>
