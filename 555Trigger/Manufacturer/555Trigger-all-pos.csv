@@ -1,41 +1,41 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
-"Behav_555","TLC555xD","SOIC-8_3.9x4.9mm_P1.27mm",60.960000,-68.580000,0.000000,top
-"Behav_Filter_C1","10 pF","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",55.017500,-58.420000,0.000000,top
-"Behav_Filter_R1","32k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",53.340000,-62.500000,90.000000,top
-"Behav_Timing1","0-10k","Potentiometer_ACP_CA9-VSMD_Vertical",63.500000,-78.740000,90.000000,top
-"Behav_Timing_C1","1.7u","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",71.120000,-76.200000,-90.000000,top
-"Behavior1","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.740000,-81.280000,-90.000000,top
-"Behavior2","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.740000,-71.120000,-90.000000,top
-"Behavior3","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.740000,-60.960000,-90.000000,top
-"Behavior4","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.740000,-50.800000,-90.000000,top
-"Behavior5","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.740000,-40.640000,-90.000000,top
-"Behavior6","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.740000,-30.480000,-90.000000,top
-"Brain1","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.740000,-91.440000,-90.000000,top
-"Brain2","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.747500,-100.350000,-90.000000,top
-"Brain_555","TLC555xD","SOIC-8_3.9x4.9mm_P1.27mm",60.960000,-40.640000,0.000000,top
-"Brain_Filter_C1","10 pF","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",54.202500,-30.480000,0.000000,top
-"Brain_Filter_R1","32k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",53.340000,-34.560000,90.000000,top
-"Brain_Timing1","0-10k","Potentiometer_ACP_CA9-VSMD_Vertical",63.500000,-50.800000,90.000000,top
-"Brain_Timing_C1","1.7u","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",71.120000,-48.260000,-90.000000,top
-"In_Buffer_Behav1","OPA333xxD","SOIC-8_3.9x4.9mm_P1.27mm",60.960000,-60.960000,0.000000,top
-"In_Buffer_Brain1","OPA333xxD","SOIC-8_3.9x4.9mm_P1.27mm",60.960000,-33.020000,0.000000,top
-"In_Buffer_Strobe1","OPA333xxD","SOIC-8_3.9x4.9mm_P1.27mm",60.960000,-88.900000,0.000000,top
-"Output_Voltage1","10k","Potentiometer_ACP_CA9-VSMD_Vertical",43.220000,-53.795000,90.000000,top
-"Power_In1","Conn_01x03_Socket","JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical",30.480000,-30.520000,-90.000000,top
-"R2","10k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",39.116000,-44.180000,90.000000,top
-"R3","20k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",41.656000,-44.180000,90.000000,top
-"R4","20k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",42.180000,-63.500000,0.000000,top
-"SW_Behav1","SW_DIP_x01","SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm",68.580000,-66.040000,-90.000000,top
-"SW_Brain1","SW_DIP_x01","SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm",68.580000,-38.100000,-90.000000,top
-"SW_Strobe1","SW_DIP_x01","SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm",68.580000,-93.980000,-90.000000,top
-"Strobe_555","TLC555xD","SOIC-8_3.9x4.9mm_P1.27mm",60.895000,-96.520000,0.000000,top
-"Strobe_Filter_C1","10 pF","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",55.017500,-86.360000,180.000000,top
-"Strobe_Filter_R1","32k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",53.340000,-89.900000,90.000000,top
-"Strobe_Timing1","0-10k","Potentiometer_ACP_CA9-VSMD_Vertical",63.500000,-106.680000,90.000000,top
-"Strobe_Timing_C1","1.7u","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",71.120000,-104.140000,-90.000000,top
-"Strobing1","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.747500,-120.924000,-90.000000,top
-"Strobing2","Conn_01x02_Socket","JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",78.747500,-110.002000,-90.000000,top
-"U7","74LVC2G74","SSOP-8_2.95x2.8mm_P0.65mm",45.720000,-93.980000,-90.000000,top
-"U8","74AHC2G00","VSSOP-8_2.3x2mm_P0.5mm",47.270000,-85.610000,0.000000,top
-"U9","OPA2333xxD","DIP-8_W7.62mm_SMDSocket_SmallPads",48.260000,-42.164000,-90.000000,top
-"WidthControlSignal1","Conn_01x03_Socket","JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical",30.480000,-48.300000,-90.000000,top
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+Behav_555,TLC555xD,SOIC-8_3.9x4.9mm_P1.27mm,60.96,-68.58,0,top
+Behav_Filter_C1,10 pF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,55.0175,-58.42,0,top
+Behav_Filter_R1,32k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,53.34,-62.5,90,top
+Behav_Timing1,0-10k,Potentiometer_ACP_CA9-VSMD_Vertical,63.5,-78.74,90,top
+Behav_Timing_C1,1.7u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,71.12,-76.2,-90,top
+Behavior1,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.74,-81.28,-90,top
+Behavior2,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.74,-71.12,-90,top
+Behavior3,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.74,-60.96,-90,top
+Behavior4,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.74,-50.8,-90,top
+Behavior5,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.74,-40.64,-90,top
+Behavior6,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.74,-30.48,-90,top
+Brain1,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.74,-91.44,-90,top
+Brain2,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.7475,-100.35,-90,top
+Brain_555,TLC555xD,SOIC-8_3.9x4.9mm_P1.27mm,60.96,-40.64,0,top
+Brain_Filter_C1,10 pF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,54.2025,-30.48,0,top
+Brain_Filter_R1,32k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,53.34,-34.56,90,top
+Brain_Timing1,0-10k,Potentiometer_ACP_CA9-VSMD_Vertical,63.5,-50.8,90,top
+Brain_Timing_C1,1.7u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,71.12,-48.26,-90,top
+In_Buffer_Behav1,OPA333xxD,SOIC-8_3.9x4.9mm_P1.27mm,60.96,-60.96,0,top
+In_Buffer_Brain1,OPA333xxD,SOIC-8_3.9x4.9mm_P1.27mm,60.96,-33.02,0,top
+In_Buffer_Strobe1,OPA333xxD,SOIC-8_3.9x4.9mm_P1.27mm,60.96,-88.9,0,top
+Output_Voltage1,10k,Potentiometer_ACP_CA9-VSMD_Vertical,43.22,-53.795,90,top
+Power_In1,Conn_01x03_Socket,JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical,30.48,-30.52,-90,top
+R2,10k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,39.116,-44.18,90,top
+R3,20k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,41.656,-44.18,90,top
+R4,20k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,42.18,-63.5,0,top
+SW_Behav1,SW_DIP_x01,SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm,68.58,-66.04,-90,top
+SW_Brain1,SW_DIP_x01,SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm,68.58,-38.1,-90,top
+SW_Strobe1,SW_DIP_x01,SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm,68.58,-93.98,-90,top
+Strobe_555,TLC555xD,SOIC-8_3.9x4.9mm_P1.27mm,60.895,-96.52,0,top
+Strobe_Filter_C1,10 pF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,55.0175,-86.36,180,top
+Strobe_Filter_R1,32k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,53.34,-89.9,90,top
+Strobe_Timing1,0-10k,Potentiometer_ACP_CA9-VSMD_Vertical,63.5,-106.68,90,top
+Strobe_Timing_C1,1.7u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,71.12,-104.14,-90,top
+Strobing1,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.7475,-120.924,-90,top
+Strobing2,Conn_01x02_Socket,JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,78.7475,-110.002,-90,top
+U7,74LVC2G74,SSOP-8_2.95x2.8mm_P0.65mm,45.72,-93.98,-90,top
+U8,74AHC2G00,VSSOP-8_2.3x2mm_P0.5mm,47.27,-85.61,0,top
+U9,OPA2333xxD,DIP-8_W7.62mm_SMDSocket_SmallPads,48.26,-42.164,-90,top
+WidthControlSignal1,Conn_01x03_Socket,JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical,30.48,-48.3,-90,top

@@ -5,6 +5,7 @@
 "4","Behav_Timing1, Brain_Timing1, Strobe_Timing1","3","0-10k","Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical",""
 "5","Behav_Timing_C1, Brain_Timing_C1, Strobe_Timing_C1","3","1.7u","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",""
 "6","Behavior1, Behavior2, Behavior3, Behavior4, Behavior5, Behavior6, Brain1, Brain2, Strobing1, Strobing2","10","Conn_01x02_Socket","Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal",""
+"7","H1, H2, H3, H4","4","MountingHole","MountingHole:MountingHole_2.2mm_M2",""
 "8","In_Buffer_Behav1, In_Buffer_Brain1, In_Buffer_Strobe1","3","OPA333xxD","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",""
 "9","Output_Voltage1","1","10k","Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical",""
 "10","Power_In1, WidthControlSignal1","2","Conn_01x03_Socket","Connector_JST:JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical",""

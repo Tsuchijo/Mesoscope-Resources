@@ -1,0 +1,12 @@
+Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; 0.199999 mm] for the current design rules.
+Plotted to '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-F_Cu.gbr'.
+Plotted to '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-B_Cu.gbr'.
+Plotted to '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-F_Paste.gbr'.
+Plotted to '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-B_Paste.gbr'.
+Plotted to '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-F_Silkscreen.gbr'.
+Plotted to '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-B_Silkscreen.gbr'.
+Plotted to '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-F_Mask.gbr'.
+Plotted to '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-B_Mask.gbr'.
+Plotted to '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-Edge_Cuts.gbr'.
+Created Gerber job file '/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver-job.gbrjob'.
+Info: Done.

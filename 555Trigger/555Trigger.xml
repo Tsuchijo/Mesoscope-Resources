@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\Owner\Documents\TM-Lab-Mesoscope-Resources\555Trigger\555Trigger.kicad_sch</source>
-    <date>10/13/2023 4:42:56 PM</date>
-    <tool>Eeschema 7.0.7</tool>
+    <source>/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/555Trigger/555Trigger.kicad_sch</source>
+    <date>Wed 18 Oct 2023 03:01:55 PM</date>
+    <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -309,7 +309,7 @@
       <property name="ki_description" value="Dual NAND Gate, High-speed Si-gate CMOS"/>
       <property name="ki_keywords" value="Dual Gate NAND LVC CMOS"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fb398fd7-aefd-4cda-a823-5283e1c3f2e7 f65d7e34-79f9-4018-8fb3-32990c6b0445 7997df46-babe-4ebf-a6eb-0d1eb31d72bd</tstamps>
+      <tstamps>f65d7e34-79f9-4018-8fb3-32990c6b0445 fb398fd7-aefd-4cda-a823-5283e1c3f2e7 7997df46-babe-4ebf-a6eb-0d1eb31d72bd</tstamps>
     </comp>
     <comp ref="U9">
       <value>OPA2333xxD</value>
@@ -813,25 +813,25 @@
   </libparts>
   <libraries>
     <library logical="74xGxx">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/74xGxx.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//74xGxx.kicad_sym</uri>
     </library>
     <library logical="Amplifier_Operational">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
     </library>
     <library logical="Timer">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Timer.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Timer.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
