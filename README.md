@@ -25,3 +25,18 @@ Adjust these parameters to change the adapters parameters, the diameter is the i
 ### I/O
 ![io diagram](io_diagram.png)
 
+For the Master Clock in / power in pin out from left to right is 
+- master clock
+- ground
+- power (5v)
+
+for Timing signal the pinout is
+- Brain timing control
+- Behavior timing control
+- Strobing timing control
+
+with the switches controlling in the same order.
+
+In order to control the width of the timing signal supply a pwm signal to each of the width control signals, with the width corresponding to change in signal. The supplied signal should be greater than 1khz and ideally as high frequency as possible to reduce artifacts
+
+the timing and output pots allow for manual control of timing and output voltage, although each of them can cause errors if pushed to their limits due to variation in their ranges from manufacturing. Never turn the timing pots all the way to the right as that might cause a short
