@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/murph_4090ws/Documents/TM-Lab-Mesoscope-Resources/SolenoidDriver/SolenoidDriver.kicad_sch</source>
-    <date>Wed 18 Oct 2023 02:35:24 PM</date>
+    <date>Mon 11 Dec 2023 11:10:15 AM</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,52 +25,76 @@
   </design>
   <components>
     <comp ref="D1">
-      <value>B220</value>
-      <footprint>Diode_SMD:D_SMB</footprint>
-      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
-      <libsource lib="Diode" part="B220" description="20V 2A Schottky Barrier Rectifier Diode, SMB"/>
+      <value>SM4007</value>
+      <footprint>Diode_SMD:D_MELF</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="SM4007" description="1000V 1A General Purpose Rectifier Diode, MELF"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
-      <property name="ki_description" value="20V 2A Schottky Barrier Rectifier Diode, SMB"/>
-      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, MELF"/>
+      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f90753ef-9dcf-46bc-b702-70be36b6b818</tstamps>
+      <tstamps>6b51bddb-5485-41bc-92df-d025d97c15f0</tstamps>
     </comp>
     <comp ref="D2">
-      <value>B220</value>
-      <footprint>Diode_SMD:D_SMB</footprint>
-      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
-      <libsource lib="Diode" part="B220" description="20V 2A Schottky Barrier Rectifier Diode, SMB"/>
+      <value>SM4007</value>
+      <footprint>Diode_SMD:D_MELF</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="SM4007" description="1000V 1A General Purpose Rectifier Diode, MELF"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
-      <property name="ki_description" value="20V 2A Schottky Barrier Rectifier Diode, SMB"/>
-      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, MELF"/>
+      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b38d4f87-23a4-4e3c-bc71-ab4aed647528</tstamps>
+      <tstamps>00bc9d28-e141-4ca3-a118-194a1ed4daac</tstamps>
     </comp>
     <comp ref="D3">
-      <value>B220</value>
-      <footprint>Diode_SMD:D_SMB</footprint>
-      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
-      <libsource lib="Diode" part="B220" description="20V 2A Schottky Barrier Rectifier Diode, SMB"/>
+      <value>SM4007</value>
+      <footprint>Diode_SMD:D_MELF</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="SM4007" description="1000V 1A General Purpose Rectifier Diode, MELF"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
-      <property name="ki_description" value="20V 2A Schottky Barrier Rectifier Diode, SMB"/>
-      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, MELF"/>
+      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3c6f15db-9c25-4bb4-a317-78446576334b</tstamps>
+      <tstamps>770feced-5bc6-46cf-b32d-6b3ee1dfdefd</tstamps>
     </comp>
     <comp ref="D4">
-      <value>B220</value>
-      <footprint>Diode_SMD:D_SMB</footprint>
-      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
-      <libsource lib="Diode" part="B220" description="20V 2A Schottky Barrier Rectifier Diode, SMB"/>
+      <value>SM4007</value>
+      <footprint>Diode_SMD:D_MELF</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="SM4007" description="1000V 1A General Purpose Rectifier Diode, MELF"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
-      <property name="ki_description" value="20V 2A Schottky Barrier Rectifier Diode, SMB"/>
-      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, MELF"/>
+      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>31b91346-3ae2-4166-bd8c-e204d7e3d065</tstamps>
+      <tstamps>7d81eb39-d471-4b4a-8b55-d4a0e678ac7c</tstamps>
     </comp>
     <comp ref="J1">
       <value>Conn_01x08_Pin</value>
@@ -95,52 +119,52 @@
       <tstamps>ef9e71a3-7a12-4d62-aedd-1a42b235332a</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>BC818W</value>
-      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
-      <libsource lib="Transistor_BJT" part="BC818W" description="0.8A Ic, 25V Vce, NPN Transistor, SOT-323"/>
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
-      <property name="ki_description" value="0.8A Ic, 25V Vce, NPN Transistor, SOT-323"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e5d1e305-6145-4c0b-a0c3-facc450ce744</tstamps>
+      <tstamps>5bf1bef6-8f9e-4abd-8d5d-617c7d0aa997</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>BC818W</value>
-      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
-      <libsource lib="Transistor_BJT" part="BC818W" description="0.8A Ic, 25V Vce, NPN Transistor, SOT-323"/>
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
-      <property name="ki_description" value="0.8A Ic, 25V Vce, NPN Transistor, SOT-323"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>35829b6c-b841-48b7-a239-1de77c9cfb9b</tstamps>
+      <tstamps>09574751-093a-485c-9ec4-2e6897b01aa1</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>BC818W</value>
-      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
-      <libsource lib="Transistor_BJT" part="BC818W" description="0.8A Ic, 25V Vce, NPN Transistor, SOT-323"/>
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
-      <property name="ki_description" value="0.8A Ic, 25V Vce, NPN Transistor, SOT-323"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>eb72bbc9-6090-4461-9299-d2fdd7b4aaa8</tstamps>
+      <tstamps>cc0d4db8-37f4-4362-943a-986f2a347501</tstamps>
     </comp>
     <comp ref="Q4">
-      <value>BC818W</value>
-      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
-      <libsource lib="Transistor_BJT" part="BC818W" description="0.8A Ic, 25V Vce, NPN Transistor, SOT-323"/>
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
-      <property name="ki_description" value="0.8A Ic, 25V Vce, NPN Transistor, SOT-323"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c9f5b52f-0439-4baf-b452-368b911be1e7</tstamps>
+      <tstamps>2a458335-9897-4abb-a994-dcc951da55a7</tstamps>
     </comp>
     <comp ref="R1">
       <value>1k</value>
@@ -186,6 +210,50 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b610e860-5e2c-4751-8e2e-44a5f2d64834</tstamps>
     </comp>
+    <comp ref="R5">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>155ba19c-1e60-4733-8cd0-58f612196eb5</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94ef08af-1ffb-4639-9373-804f972c4965</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3355776-ea01-4ca0-8ea1-a7d50ab25130</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SolenoidDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09fe3783-66c5-48b2-85fa-1c45b6a6cb83</tstamps>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Connector" part="Conn_01x08_Pin">
@@ -226,39 +294,41 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="B220">
-      <description>20V 2A Schottky Barrier Rectifier Diode, SMB</description>
-      <docs>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</docs>
+    <libpart lib="Diode" part="SM4007">
+      <description>1000V 1A General Purpose Rectifier Diode, MELF</description>
+      <docs>http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf</docs>
       <footprints>
-        <fp>D*SMB*</fp>
+        <fp>D*MELF*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">B220</field>
-        <field name="Footprint">Diode_SMD:D_SMB</field>
-        <field name="Datasheet">http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</field>
+        <field name="Value">SM4007</field>
+        <field name="Footprint">Diode_SMD:D_MELF</field>
+        <field name="Datasheet">http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_BJT" part="BC818W">
-      <description>0.8A Ic, 25V Vce, NPN Transistor, SOT-323</description>
-      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
       <footprints>
-        <fp>SOT?323*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">BC818W</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
-        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
       </fields>
       <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -272,8 +342,8 @@
     <library logical="Diode">
       <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
     </library>
-    <library logical="Transistor_BJT">
-      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -292,62 +362,70 @@
       <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
     </net>
     <net code="3" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="4" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="5" name="Net-(D3-A)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="6" name="Net-(D4-A)">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="7" name="Net-(J1-Pin_2)">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
     </net>
     <net code="8" name="Net-(J1-Pin_3)">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
     <net code="9" name="Net-(J1-Pin_4)">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="10" name="Net-(J1-Pin_5)">
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(Q1-B)">
-      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-    </net>
-    <net code="12" name="Net-(Q2-B)">
-      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+    <net code="11" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(Q3-B)">
-      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
+    <net code="12" name="Net-(Q2-G)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(Q4-B)">
-      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+    <net code="13" name="Net-(Q3-G)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q4-G)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
     </net>
   </nets>
 </export>
