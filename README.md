@@ -100,3 +100,7 @@ except KeyboardInterrupt:
     width_control_pwm.stop()
     GPIO.cleanup()
 ```
+
+
+# Throughole Based Triggering System
+For making the throughhole 555 trigger there is a .xlsx file with the digikey order needed to create one system. The list can also be found at this link: https://www.digikey.ca/en/mylists/list/3F61W3LRA3. Then the components can be placed on the board based on the silkscreen.
