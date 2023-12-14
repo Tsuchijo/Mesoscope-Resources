@@ -104,3 +104,32 @@ except KeyboardInterrupt:
 
 # Throughole Based Triggering System
 For making the throughhole 555 trigger there is a .xlsx file with the digikey order needed to create one system. The list can also be found at this link: https://www.digikey.ca/en/mylists/list/3F61W3LRA3. Then the components can be placed on the board based on the silkscreen.
+
+![Alt text](image-4.png)
+
+## Circuit Drawing
+
+![Alt text](image-5.png)
+
+# Solenoid Driver
+
+The Driver is based on using M7 Mosfet drivers, which max out at ~300 mA of current draw at 12V, anything higher will damage and burn out the driver over time. Not suitable for high power solenoids.
+
+## Circuit Drawing
+![Alt text](image-6.png)
+
+# Glass Slide Cutting Jigs
+https://cad.onshape.com/documents/586ecae177d828403c2f23cb/w/295fcf84d2d2bd0672364755/e/c55ac1745cc839e1a44f1998?renderMode=0&uiState=657b82dfe9d1321263616ee4
+
+the Glass Slide Cutting Jig is parameterized by a variable table which determines the depth of the first and second cuts, made to cut 8mm diameter glass slides, should be 3d printed on fine print settings.
+
+# Columbia Mouse Cup Clear Sides Model
+https://cad.onshape.com/documents/b81ce74945475cb4a4585191/w/58aa1f17095117351b4c242d/e/5ae7ff2c3d7fb6816ba1f3a7?renderMode=0&uiState=657b8323ea32e231b383538c
+
+Clear Sided mouse cup for water reaching task. The sides should be laser cut out of 3mm acrylic, the main cup 3d printed.
+
+# Headfix Mount
+https://cad.onshape.com/documents/1d2096fc56ebea0ce0825b22/w/af5d367c825ef3549394acac/e/f6e60455f61b46eaad854045?renderMode=0&uiState=657b836199fdb972703cfb45
+
+Model and Drawing for headfix mount, should be tapped and machined. Used JLCPCB to order the Machined versions.
+
