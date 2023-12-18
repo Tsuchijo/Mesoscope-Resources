@@ -47,6 +47,8 @@ To use supply a 50hz PWM signal to the master clock with as wide a PWM as possib
 
 Supply a 5khz PWM signal for each width control pin in to control the exposure for brain and the behaviour cameras independently. Make sure the switch is switched to ON for the control pin being used. The Width of the PWM signal corresponds with the timing, with the widest signal being the longest exposure time.
 
+Simulation of the circuit can be found at: https://tinyurl.com/ykhpxhtl
+
 ### Control Example Code
 ```import RPi.GPIO as GPIO
 import time
