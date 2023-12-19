@@ -1,5 +1,38 @@
 # TM-Lab-Mesoscope-Resources
 
+## Arduino Code
+Installing Arduino IDE:
+
+    Download Arduino IDE:
+        Visit the official Arduino website: Arduino Software.
+        Choose the appropriate version for your operating system (Windows, macOS, Linux), and download the installer.
+
+    Install Arduino IDE:
+        Run the downloaded installer and follow the on-screen instructions.
+        On Windows, you might need to install drivers for the Arduino board during the installation process.
+
+    Open Arduino IDE:
+        Once installed, open the Arduino IDE.
+
+Installing and Running a Supplied Program:
+
+    Connect Arduino Board:
+        Connect your Arduino board to your computer using a USB cable.
+
+    Select Board and Port:
+        In the Arduino IDE, go to Tools > Board and select the appropriate Arduino board (e.g., Arduino Uno).
+        Also, go to Tools > Port and select the port to which your Arduino board is connected.
+
+    Open a Supplied Program (Sketch):
+        Download the sketch from TriggeringstrobingArduinoCode/
+        In the Arduino IDE, go to File > open and open the downloaded sketch
+
+    Verify the Sketch:
+        Click the checkmark icon (Verify) to check for any errors in the code. Fix any errors if they occur.
+
+    Upload the Sketch:
+        Click the right arrow icon (Upload) to compile and upload the sketch to the Arduino board.
+
 ## Lens Adapters
 
 All the lens adapters are parametrically created using this onshape file:
